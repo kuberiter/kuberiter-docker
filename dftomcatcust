@@ -1,7 +1,7 @@
 FROM openjdk:13-jdk-oracle
 
 #maintainer
-MAINTAINER Kuberiter <support@kuberiter.com>
+LABEL maintainer="Kuberiter <support@kuberiter.com>"
 
 ENV CATALINA_HOME /opt/tomcat9
 ENV PATH $CATALINA_HOME/bin:$PATH
